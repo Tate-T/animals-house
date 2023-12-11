@@ -54,30 +54,36 @@
         </ul>
       </nav>
       <select class="header-switcher" id="size" name="size">
-        <option class="header-languageUA" value="xs">UA</option>
-        <option class="header-" value="s">UK</option>
-        <option value="m" selected>ES</option>
-        <option value="l">FR</option>
+        <option class="header-language" value="xs">UA</option>
+        <option class="header-language" value="s">UK</option>
+        <option class="header-language" value="m" selected>ES</option>
+        <option class="header-language" value="l">FR</option>
       </select>
-      <button type="button">Допомогти</button>
+      <button class="header_button" type="button">Допомогти</button>
     </header>
     <main>
       <!-- hero section -->
       <section class="hero">
-        <h1>Цим оченятам дуже потрібні любов і турбота</h1>
-        <p>
+        <h1 class="hero-title">Цим оченятам дуже потрібні любов і турбота</h1>
+        <p class="hero-text">
           Вірний друг радітиме тобі завжди. Йому потрібно дуже мало - теплий дім
           та дбайливий господар
         </p>
-        <button type="button">Обрати</button>
-        <img width="538" height="680" src="./images/dog.png" alt="dog" />
+        <button class="hero-button" type="button">Обрати</button>
+        <img
+          class="hero-photo"
+          width="538"
+          height="680"
+          src="./images/dog.png"
+          alt="dog"
+        />
       </section>
       <!-- about -->
       <section class="about">
-        <img src="./images/dog2.png" alt="dog" />
-        <div>
-          <h2>Про нас</h2>
-          <p>
+        <img class="about-photo" src="./images/dog2.png" alt="dog" />
+        <div class="about-box">
+          <h2 class="about-title">Про нас</h2>
+          <p class="about-text">
             В притулку весь час знаходиться 350 дорослих та 20 цуценят. В
             залежності від швидкості прилаштувань цифри змінюються. Все почалося
             зі співчуття до масово викинутих тварин у місті, доля яких всім була
@@ -85,77 +91,83 @@
             небайдужих людей ми розпочали прилаштування та стерилізацію тварин
             для зменшення кількості безхатьків.
           </p>
-          <button type="button">Детальніше</button>
+          <button class="about-button" type="button">Детальніше</button>
         </div>
       </section>
       <!-- friend -->
       <section class="friend">
-        <h2>Вибери собі вірного друга</h2>
-        <p>Не купуй – прихисти, адже справжня дружба не продається!</p>
-        <ul>
-          <li>
-            <img src="./images/friend1.png" alt="Дружок" />
-            <h3>Дружок</h3>
-            <p>Вік 1 рік 3 місяці</p>
+        <h2 class="friend-title">Вибери собі вірного друга</h2>
+        <p class="friend-text">
+          Не купуй – прихисти, адже справжня дружба не продається!
+        </p>
+        <ul class="friend-animals">
+          <li class="friend-animal">
+            <img class="friend-photo" src="./images/friend1.png" alt="Дружок" />
+            <h3 class="friend-name">Дружок</h3>
+            <p class="friend-age">Вік 1 рік 3 місяці</p>
           </li>
-          <li>
-            <img src="./images/friend2.webp" alt="Бім" />
-            <h3>Бім</h3>
-            <p>Вік 8 місяців</p>
+          <li class="friend-animal">
+            <img class="friend-photo" src="./images/friend2.webp" alt="Бім" />
+            <h3 class="friend-name">Бім</h3>
+            <p class="friend-age">Вік 8 місяців</p>
           </li>
-          <li>
-            <img src="./images/friend3.webp" alt="Сільвер" />
-            <h3>Сільвер</h3>
-            <p>Вік 1 рік 9 місяців</p>
+          <li class="friend-animal">
+            <img
+              class="friend-photo"
+              src="./images/friend3.webp"
+              alt="Сільвер"
+            />
+            <h3 class="friend-name">Сільвер</h3>
+            <p class="friend-age">Вік 1 рік 9 місяців</p>
           </li>
-          <li>
-            <img src="./images/friend4.webp" alt="Білка" />
-            <h3>Білка</h3>
-            <p>Вік 2 роки</p>
+          <li class="friend-animal">
+            <img class="friend-photo" src="./images/friend4.webp" alt="Білка" />
+            <h3 class="friend-name">Білка</h3>
+            <p class="friend-age">Вік 2 роки</p>
           </li>
-          <li>
-            <img src="./images/friend5.webp" alt="Лаккі" />
-            <h3>Лаккі</h3>
-            <p>Вік 2 роки 1 місяць</p>
+          <li class="friend-animal">
+            <img class="friend-photo" src="./images/friend5.webp" alt="Лаккі" />
+            <h3 class="friend-name">Лаккі</h3>
+            <p class="friend-class">Вік 2 роки 1 місяць</p>
           </li>
-          <li>
-            <img src="./images/friend6.webp" alt="Журик" />
-            <h3>Журик</h3>
-            <p>Вік 1 рік</p>
+          <li class="friend-animal">
+            <img class="friend-photo" src="./images/friend6.webp" alt="Журик" />
+            <h3 class="friend-name">Журик</h3>
+            <p class="friend-age">Вік 1 рік</p>
           </li>
         </ul>
-        <button type="button">Показати більше</button>
+        <button class="friend-button" type="button">Показати більше</button>
       </section>
       <!-- conditions -->
       <section class="conditions">
-        <h2>Наші умови</h2>
-        <ul>
-          <li>
-            <h3>Лише власник</h3>
-            <p>Собаку чи кота віддаємо лише в руки майбутньому власнику</p>
-            <img src="./images/conditions1.webp" alt="Власник" />
+        <h2 class="conditions-title">Наші умови</h2>
+        <ul class="conditions-list">
+          <li class="conditions-item">
+            <h3 class="conditions-subtitle">Лише власник</h3>
+            <p class="conditions-text">Собаку чи кота віддаємо лише в руки майбутньому власнику</p>
+            <img class="conditions-photo" src="./images/conditions1.webp" alt="Власник" />
           </li>
-          <li>
-            <h3>Тварина для сім'ї</h3>
-            <p>
+          <li class="conditions-item">
+            <h3 class="conditions-subtitle">Тварина для сім'ї</h3>
+            <p class="conditions-text">
               Творинки не для утримання на ланцюгу, охорони підприєства чи
               самовигулу
             </p>
-            <img src="./images/сім'я.webp" alt="сім'я" />
+            <img class="conditions-photo" src="./images/сім'я.webp" alt="сім'я" />
           </li>
-          <li>
-            <h3>Відповідальність</h3>
-            <p>
+          <li class="conditions-item">
+            <h3 class="conditions-subtitle">Відповідальність</h3>
+            <p class="conditions-text">
               Не забирайте тварину з притулку, якщо не готові про неї
               піклуватись
             </p>
-            <img src="./images/Відповідальність.webp" alt="Відповідальність" />
+            <img class="conditions-photo" src="./images/Відповідальність.webp" alt="Відповідальність" />
           </li>
         </ul>
       </section>
       <!-- location -->
       <section class="location">
-        <iframe
+        <iframe class="location-map"
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d84547.94765808889!2d24.96359421142577!3d48.53086749972008!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4736d2957ef4cbdf%3A0xc1e2a9b84387bf00!2z0JrQvtC70L7QvNC40Y8sINCG0LLQsNC90L4t0KTRgNCw0L3QutGW0LLRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjCwg0KPQutGA0LDRl9C90LAsIDc4MjAw!5e0!3m2!1suk!2sge!4v1697101822106!5m2!1suk!2sge"
           width="600"
           height="450"
@@ -167,54 +179,54 @@
       </section>
       <!-- contacts -->
       <section class="contacts">
-        <h2>Наші контакти</h2>
-        <p>У вас є питання? Зв'яжіться з нами безпосередньо</p>
-        <address>
-          <ul>
-            <li>
-              <h3>Адреса</h3>
-              <a href="https://maps.app.goo.gl/5JjEJL8DxkTAAk6A7"
+        <h2 class="contacts-title">Наші контакти</h2>
+        <p class="contacts-text">У вас є питання? Зв'яжіться з нами безпосередньо</p>
+        <address class="contacts-address">
+          <ul class="contacts-list">
+            <li class="contacts-item">
+              <h3 class="contacts-subtitle">Адреса</h3>
+              <a class="contacts-link" href="https://maps.app.goo.gl/5JjEJL8DxkTAAk6A7"
                 >cмт. Жук м. Івано-Франківська область</a
               >
             </li>
-            <li>
-              <h3>Телефон</h3>
-              <ul>
-                <li>
-                  <a href="tel:+38(099)1234567">+38 (099) 123 45 67</a>
+            <li class="contacts-item">
+              <h3 class="contacts-subtitle">Телефон</h3>
+              <ul class="contacts-subtitle">
+                <li class="contacts-item">
+                  <a class="contacts-link" href="tel:+38(099)1234567">+38 (099) 123 45 67</a>
                 </li>
-                <li>
-                  <a href="tel:+38(088)1234567">+38 (088) 123 45 67</a>
+                <li class="contacts-item">
+                  <a class="contacts-link" href="tel:+38(088)1234567">+38 (088) 123 45 67</a>
                 </li>
               </ul>
             </li>
-            <li>
-              <h3>Електронна адреса</h3>
-              <a href="mailto:hatyna@gmail.com">hatyna@gmail.com</a>
+            <li class="contacts-item">
+              <h3 class="contacts-subtitle">Електронна адреса</h3>
+              <a class="contacts-link" href="mailto:hatyna@gmail.com">hatyna@gmail.com</a>
             </li>
-            <img src="./images/contacts.webp" alt="communications" />
+            <img class="contacts-photo" src="./images/contacts.webp" alt="communications" />
           </ul>
         </address>
       </section>
       <!-- help -->
       <section class="help">
-        <h2>Як допомогти</h2>
-        <h3>Бажаєте допомогти притулку?</h3>
-        <p>
+        <h2 class="help-title">Як допомогти</h2>
+        <h3 class="help-subtitle">Бажаєте допомогти притулку?</h3>
+        <p class="help-text">
           Перейдіть за посиланням та заповніть форму Ми з вами обов’язково
           звяжемось
         </p>
-        <button type="button">Зв'яжіться з нами</button>
+        <button class="help-button" type="button">Зв'яжіться з нами</button>
       </section>
     </main>
     <footer class="footer">
-      <a href="./index.html">
-        <img width="55" height="50" src="./images/logo.png" alt="logo" />
-        <p>ХАТИНА</p>
-        <p>притулок для тварин</p>
+      <a class="footer-link" href="./index.html">
+        <img class="footer-img" width="55" height="50" src="./images/logo.png" alt="logo" />
+        <p class="footer-logo">ХАТИНА</p>
+        <p class="footer-slogan">притулок для тварин</p>
       </a>
-      <p>Приєднутесь до нас в соціальних мережах</p>
-      <ul>
+      <p class="footer-proposition">Приєднутесь до нас в соціальних мережах</p>
+      <ul class="footer-list">
         <li>
           <svg
             xmlns="http://www.w3.org/2000/svg"
