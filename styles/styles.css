@@ -5,3 +5,33 @@
     --text-color: #404040;
     
 }
+.header-house{
+    color: var(--title-color,#202053);
+        font-family: Poppins;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+}
+.header-slogan{
+    color: var(--title-color, #202053);
+        font-family: Poppins;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+}
+.header-link{
+    color: var(--title-color,#202053);
+        text-align: center;
+        /* Regular-20 */
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        
+}
+.header-link:hover{
+
+}
