@@ -199,12 +199,14 @@ body {
   color: var(--Blue, #4a86ff);
   font-size: 30px;
   font-weight: 500;
+  font-style: normal;
 }
 .contacts-link {
   color: var(--title-color, #202053);
   font-size: 30px;
   font-weight: 500;
   line-height: 150%;
+  font-style: normal;
 }
 .contacts-photo {
   width: 624px;
