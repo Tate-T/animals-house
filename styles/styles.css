@@ -8,6 +8,31 @@ body {
   --text-color: #404040;
   --button-text-color: #ffffff;
 }
+.connection-button {
+  color: var(--button-text-color, #fff);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.2;
+  width: 328px;
+  height: 102px;
+  padding: 16px 32px;
+  border-radius: 25px 25px 25px 0px;
+  background: var(--accent-color, #ef3959);
+  box-shadow: 0px 0px 40px 0px rgba(239, 57, 89, 0.4);
+}
+.details-button {
+  color: var(--Red, #ef3959);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.2;
+  padding: 21px 82px;
+  border-radius: 25px 25px 25px 0px;
+  border: 3px solid var(--gradient-blue-red, #4a86ff);
+}
 .header-house {
   color: var(--title-color, #202053);
   font-size: 35px;
@@ -67,23 +92,7 @@ body {
   font-weight: 500;
   line-height: 1.5;
 }
-.hero-button {
-  color: var(--button-text-color, #fff);
-  text-align: center;
-  font-size: 36px;
-  font-weight: 600;
-  line-height: 1.2;
-}
-.hero-button {
-  width: 328px;
-  height: 102px;
-  padding: 16px 32px;
-}
-.hero-button {
-  border-radius: 25px 25px 25px 0px;
-  background: var(--accent-color, #ef3959);
-  box-shadow: 0px 0px 40px 0px rgba(239, 57, 89, 0.4);
-}
+
 .hero-photo {
   width: 538px;
   height: 680px;
@@ -135,18 +144,6 @@ body {
   color: var(--text-color, #404040);
   font-size: 24px;
   font-weight: 500;
-}
-.friend-button {
-  color: var(--accent-color, #ef3959);
-  text-align: center;
-  font-size: 36px;
-  font-weight: 600;
-  line-height: 1.2;
-}
-.friend-button {
-  width: 442px;
-  height: 102px;
-  padding: 21px 82px;
 }
 .conditions-title {
   color: var(--title-color, #202053);
