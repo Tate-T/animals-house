@@ -102,7 +102,7 @@
       </section>
       <!-- about -->
       <section class="about">
-        <div class="container">
+        <div class="container about-container">
           <img class="about-photo" src="./images/dog2.png" alt="dog" />
           <div class="about-box">
             <h2 class="about-title">Про нас</h2>
@@ -122,7 +122,7 @@
       </section>
       <!-- friend -->
       <section class="friend">
-        <div class="friend">
+        <div class="container friend-container">
           <h2 class="friend-title">Вибери собі вірного друга</h2>
           <p class="friend-text">
             Не купуй – прихисти, адже справжня дружба не продається!
@@ -201,11 +201,15 @@
               />
             </li>
             <li class="conditions-item">
-              <h3 class="conditions-subtitle">Тварина для сім'ї</h3>
-              <p class="conditions-text">
-                Творинки не для утримання на ланцюгу, охорони підприєства чи
-                самовигулу
-              </p>
+              <div class="conditions-info">
+                <h3 class="conditions-subtitle conditions-margin">
+                  Тварина для сім'ї
+                </h3>
+                <p class="conditions-text">
+                  Творинки не для утримання на ланцюгу, охорони підприєства чи
+                  самовигулу
+                </p>
+              </div>
               <img
                 class="conditions-photo"
                 src="./images/сім'я.webp"
@@ -245,44 +249,46 @@
       </section>
       <!-- contacts -->
       <section class="contacts">
-        <div class="container">
-          <h2 class="contacts-title">Наші контакти</h2>
-          <p class="contacts-text">
-            У вас є питання? Зв'яжіться з нами безпосередньо
-          </p>
-          <address class="contacts-address">
-            <ul class="contacts-list">
-              <li class="contacts-item">
-                <p>class="contacts-subtitle">Адреса</p>
-                <a
-                  class="contacts-link"
-                  href="https://maps.app.goo.gl/5JjEJL8DxkTAAk6A7"
-                  >cмт. Жук м. Івано-Франківська область</a
-                >
-              </li>
-              <li class="contacts-item">
-                <p>class="contacts-subtitle">Телефон</p>
-                <ul class="contacts-subtitle">
-                  <li class="contacts-item">
-                    <a class="contacts-link" href="tel:+38(099)1234567"
-                      >+38 (099) 123 45 67</a
-                    >
-                  </li>
-                  <li class="contacts-item">
-                    <a class="contacts-link" href="tel:+38(088)1234567"
-                      >+38 (088) 123 45 67</a
-                    >
-                  </li>
-                </ul>
-              </li>
-              <li class="contacts-item">
-                <p>class="contacts-subtitle">Електронна адреса</p>
-                <a class="contacts-link" href="mailto:hatyna@gmail.com"
-                  >hatyna@gmail.com</a
-                >
-              </li>
-            </ul>
-          </address>
+        <div class="container contacts-container">
+          <div class="container-box">
+            <h2 class="contacts-title">Наші контакти</h2>
+            <p class="contacts-text">
+             <span class="contacts-phrase"> У вас є питання? </span>Зв'яжіться з нами безпосередньо
+            </p>
+            <address class="contacts-address">
+              <ul class="contacts-list">
+                <li class="contacts-item">
+                  <p class="contacts-subtitle">Адреса</p>
+                  <a
+                    class="contacts-link"
+                    href="https://maps.app.goo.gl/5JjEJL8DxkTAAk6A7"
+                    >cмт. Жук м. Івано-Франківська область</a
+                  >
+                </li>
+                <li class="contacts-item">
+                  <p class="contacts-subtitle">Телефон</p>
+                  <ul class="contacts-subtitle">
+                    <li class="contacts-item">
+                      <a class="contacts-link" href="tel:+38(099)1234567"
+                        >+38 (099) 123 45 67</a
+                      >
+                    </li>
+                    <li class="contacts-item">
+                      <a class="contacts-link" href="tel:+38(088)1234567"
+                        >+38 (088) 123 45 67</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="contacts-item">
+                  <p class="contacts-subtitle">Електронна адреса</p>
+                  <a class="contacts-link" href="mailto:hatyna@gmail.com"
+                    >hatyna@gmail.com</a
+                  >
+                </li>
+              </ul>
+            </address>
+          </div>
           <img
             class="contacts-photo"
             src="./images/contacts.webp"
