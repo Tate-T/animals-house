@@ -116,8 +116,8 @@
               волонтерів та небайдужих людей ми розпочали прилаштування та
               стерилізацію тварин для зменшення кількості безхатьків.
             </p>
-            <button class="about-button details-button" type="button"><span class="details-name"> Детальніше</span>
-             
+            <button class="about-button details-button" type="button">
+              Детальніше
             </button>
           </div>
         </div>
@@ -136,13 +136,23 @@
                 src="./images/friend1.png"
                 alt="Дружок"
               />
-              <h3 class="friend-name">Дружок</h3>
-              <p class="friend-age">Вік 1 рік 3 місяці</p>
+              <div class="friend-boxx">
+                <div>
+                  <h3 class="friend-name">Дружок</h3>
+                  <p class="friend-age">Вік 1 рік 3 місяці</p>
+                </div>
+                <button type="button">knopka</button>
+              </div>
             </li>
             <li class="friend-animal">
               <img class="friend-photo" src="./images/friend2.webp" alt="Бім" />
-              <h3 class="friend-name">Бім</h3>
-              <p class="friend-age">Вік 8 місяців</p>
+              <div class="friend-boxx">
+                <div>
+                  <h3 class="friend-name">Бім</h3>
+                  <p class="friend-age">Вік 8 місяців</p>
+                </div>
+                <button type="button">knopka</button>
+              </div>
             </li>
             <li class="friend-animal">
               <img
@@ -150,8 +160,13 @@
                 src="./images/friend3.webp"
                 alt="Сільвер"
               />
-              <h3 class="friend-name">Сільвер</h3>
-              <p class="friend-age">Вік 1 рік 9 місяців</p>
+              <div class="friend-boxx">
+                <div>
+                  <h3 class="friend-name">Сільвер</h3>
+                  <p class="friend-age">Вік 1 рік 9 місяців</p>
+                </div>
+                <button type="button">knopka</button>
+              </div>
             </li>
             <li class="friend-animal">
               <img
@@ -159,8 +174,13 @@
                 src="./images/friend4.webp"
                 alt="Білка"
               />
-              <h3 class="friend-name">Білка</h3>
-              <p class="friend-age">Вік 2 роки</p>
+              <div class="friend-boxx">
+                <div>
+                  <h3 class="friend-name">Білка</h3>
+                  <p class="friend-age">Вік 2 роки</p>
+                </div>
+                <button type="button">knopka</button>
+              </div>
             </li>
             <li class="friend-animal">
               <img
@@ -168,8 +188,13 @@
                 src="./images/friend5.webp"
                 alt="Лаккі"
               />
-              <h3 class="friend-name">Лаккі</h3>
-              <p class="friend-age">Вік 2 роки 1 місяць</p>
+              <div class="friend-boxx">
+                <div>
+                  <h3 class="friend-name">Лаккі</h3>
+                  <p class="friend-age">Вік 2 роки 1 місяць</p>
+                </div>
+                <button type="button">knopka</button>
+              </div>
             </li>
             <li class="friend-animal">
               <img
@@ -177,8 +202,13 @@
                 src="./images/friend6.webp"
                 alt="Журик"
               />
-              <h3 class="friend-name">Журик</h3>
-              <p class="friend-age">Вік 1 рік</p>
+              <div class="friend-boxx">
+                <div class="friend-box">
+                  <h3 class="friend-name">Журик</h3>
+                  <p class="friend-age">Вік 1 рік</p>
+                </div>
+                <button type="button">knopka</button>
+              </div>
             </li>
           </ul>
           <button class="friend-button details-button" type="button">
@@ -196,11 +226,13 @@
               <p class="conditions-text">
                 Собаку чи кота віддаємо лише в руки майбутньому власнику
               </p>
-              <img
-                class="conditions-photo"
-                src="./images/conditions1.webp"
-                alt="Власник"
-              />
+              <div class="conditions-box-poppy">
+                <img
+                  class="conditions-photo"
+                  src="./images/conditions1.webp"
+                  alt="Власник"
+                />
+              </div>
             </li>
             <li class="conditions-item">
               <div class="conditions-info">
@@ -212,11 +244,13 @@
                   самовигулу
                 </p>
               </div>
-              <img
-                class="conditions-photo"
-                src="./images/сім'я.webp"
-                alt="сім'я"
-              />
+              <div class="conditions-box-cat">
+                <img
+                  class="conditions-photo"
+                  src="./images/сім'я.webp"
+                  alt="сім'я"
+                />
+              </div>
             </li>
             <li class="conditions-item">
               <h3 class="conditions-subtitle">Відповідальність</h3>
@@ -224,11 +258,13 @@
                 Не забирайте тварину з притулку, якщо не готові про неї
                 піклуватись
               </p>
-              <img
-                class="conditions-photo"
-                src="./images/Відповідальність.webp"
-                alt="Відповідальність"
-              />
+              <div class="conditions-box-dog">
+                <img
+                  class="conditions-photo"
+                  src="./images/Відповідальність.webp"
+                  alt="Відповідальність"
+                />
+              </div>
             </li>
           </ul>
         </div>
@@ -261,42 +297,51 @@
             <address class="contacts-address">
               <ul class="contacts-list">
                 <li class="contacts-item">
-                  <p class="contacts-subtitle">Адреса</p>
-                  <a
-                    class="contacts-link"
-                    href="https://maps.app.goo.gl/5JjEJL8DxkTAAk6A7"
-                    >cмт. Жук м. Івано-Франківська область</a
-                  >
+                  <div class="contacts-box">
+                    <p class="contacts-subtitle">Адреса</p>
+                    <a
+                      class="contacts-link"
+                      href="https://maps.app.goo.gl/5JjEJL8DxkTAAk6A7"
+                      ><span class="contacts-phrase">cмт. Жук</span> м.
+                      Івано-Франківська область</a
+                    >
+                  </div>
                 </li>
                 <li class="contacts-item">
-                  <p class="contacts-subtitle">Телефон</p>
-                  <ul class="contacts-subtitle">
-                    <li class="contacts-item">
-                      <a class="contacts-link" href="tel:+38(099)1234567"
-                        >+38 (099) 123 45 67</a
-                      >
-                    </li>
-                    <li class="contacts-item">
-                      <a class="contacts-link" href="tel:+38(088)1234567"
-                        >+38 (088) 123 45 67</a
-                      >
-                    </li>
-                  </ul>
+                  <div class="contacts-boxx">
+                    <p class="contacts-subtitle">Телефон</p>
+                    <ul class="contacts-subtitle">
+                      <li class="contacts-item">
+                        <a class="contacts-link" href="tel:+38(099)1234567"
+                          >+38 (099) 123 45 67</a
+                        >
+                      </li>
+                      <li class="contacts-item">
+                        <a class="contacts-link" href="tel:+38(088)1234567"
+                          >+38 (088) 123 45 67</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
                 </li>
                 <li class="contacts-item">
-                  <p class="contacts-subtitle">Електронна адреса</p>
-                  <a class="contacts-link" href="mailto:hatyna@gmail.com"
-                    >hatyna@gmail.com</a
-                  >
+                  <div class="contacts-boxxx">
+                    <p class="contacts-subtitle">Електронна адреса</p>
+                    <a class="contacts-link" href="mailto:hatyna@gmail.com"
+                      >hatyna@gmail.com</a
+                    >
+                  </div>
                 </li>
               </ul>
             </address>
           </div>
-          <img
-            class="contacts-photo"
-            src="./images/contacts.webp"
-            alt="communications"
-          />
+          <div class="contacts-gradient">
+            <img
+              class="contacts-photo"
+              src="./images/contacts.webp"
+              alt="communications"
+            />
+          </div>
         </div>
       </section>
       <!-- help -->

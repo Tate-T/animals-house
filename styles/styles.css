@@ -42,6 +42,10 @@ body {
   font-style: normal;
   font-weight: 600;
   line-height: 1.2;
+  width: 442px;
+  height: 102px;
+  border-radius: 25px 25px 25px 0px;
+  background-color: transparent;
 }
 .details-button::before {
   width: 100%;
@@ -62,7 +66,6 @@ body {
     )
     30;
   border-radius: 25px 25px 25px 0px;
-  position: relative;
   background: linear-gradient(
       to right,
       rgba(74, 134, 255, 1),
@@ -239,6 +242,9 @@ body {
   padding-top: 120px;
   margin-bottom: 20px;
 }
+.friend-boxx {
+  display: flex;
+}
 .friend-animals {
   outline: solid red;
   display: flex;
@@ -283,6 +289,27 @@ body {
 }
 .conditions {
   padding-top: 64px;
+}
+.conditions-box-poppy {
+  background-image: url(../images/conditions_poppy.png);
+  width: 425px;
+  height: 380px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.conditions-box-cat {
+  background-image: url(../images/conditions-cat.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 380px;
+  width: 380px;
+}
+.conditions-box-dog {
+  background-image: url(../images/conditions-dog.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 425px;
+  height: 381px;
 }
 .conditions-title {
   color: var(--title-color, #202053);
@@ -378,7 +405,7 @@ body {
   font-size: 30px;
   font-weight: 500;
   font-style: normal;
-  margin-top: 20px;
+  padding-left: 20px;
 }
 .contacts-link {
   color: var(--title-color, #202053);
@@ -386,10 +413,32 @@ body {
   font-weight: 500;
   line-height: 1.5;
   font-style: normal;
+  padding-left: 20px;
 }
 .contacts-photo {
   width: 624px;
   height: 400px;
+}
+.contacts-gradient {
+  background-image: url(../images/contacts-gradient.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 639px;
+  height: 409px;
+}
+.contacts-box {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+.contacts-boxx{
+  display: flex;
+}
+.contacts-boxxx{
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin-top: 20px;
 }
 .help {
   padding-top: 124px;
