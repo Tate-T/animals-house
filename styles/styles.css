@@ -244,6 +244,7 @@ body {
 }
 .friend-boxx {
   display: flex;
+  gap: 100px;
 }
 .friend-animals {
   outline: solid red;
@@ -281,11 +282,25 @@ body {
   font-size: 24px;
   font-weight: 500;
 }
+.friend-knopka {
+  width: 66px;
+  height: 66px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .friend-button {
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 64px;
+}
+.friend-icon {
+  width: 30px;
+  height: 30px;
+  stroke: #4a86ff;
 }
 .conditions {
   padding-top: 64px;
@@ -431,10 +446,10 @@ body {
   align-items: flex-start;
   margin-bottom: 20px;
 }
-.contacts-boxx{
+.contacts-boxx {
   display: flex;
 }
-.contacts-boxxx{
+.contacts-boxxx {
   display: flex;
   align-items: flex-start;
   gap: 20px;
@@ -451,6 +466,20 @@ body {
   font-weight: 800;
   line-height: 1.3;
   margin-bottom: 125px;
+}
+.help-box {
+  width: 1130px;
+  height: 419px;
+  flex-shrink: 0;
+  border-radius: 80px;
+  opacity: 0.75;
+  margin-left: 156px;
+  margin-left: 153px;
+  border-image: linear-gradient(
+    rgba(74, 134, 255, 1),
+    rgba(245, 245, 245, 1),
+    rgba(239, 57, 89, 1)
+  );
 }
 .help-subtitle {
   color: var(--title-color, #202053);
@@ -485,7 +514,8 @@ body {
 }
 .footer-blocks {
   display: flex;
-  gap: 30px;
+ justify-content: space-between;
+ width: 100%;
 }
 .footeer-box {
   width: 212px;
@@ -534,4 +564,10 @@ body {
 }
 .footer-all {
   display: flex;
+}
+.footer-icon{
+  width: 32px;
+height: 32px;
+fill: #202053;
+stroke: #fff;
 }
