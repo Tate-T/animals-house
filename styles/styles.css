@@ -15,7 +15,6 @@ body {
 } */
 .container {
   /* width: 1390px; */
-  outline: solid #ef3959;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -102,7 +101,7 @@ body {
   gap: 20px;
 }
 /* .header-box{
-  outline: solid red;
+
 } */
 .header-house {
   color: var(--title-color, #202053);
@@ -174,7 +173,7 @@ body {
   margin-bottom: 40px;
 }
 .hero-box {
-  outline: solid green;
+
 }
 .hero-box {
   padding-top: 37px;
@@ -189,7 +188,7 @@ body {
 }
 .hero-dog {
   width: 613px;
-  outline: solid red;
+
   margin-left: 120px;
   flex-shrink: 0;
   background-image: url(../images/dog_background.png);
@@ -247,13 +246,13 @@ body {
   gap: 100px;
 }
 .friend-animals {
-  outline: solid red;
+
   display: flex;
   flex-wrap: wrap;
   gap: 125px;
 }
 .friend-animal {
-  outline: solid black;
+
   flex-basis: calc(100% - (125px * 3) / 3);
   max-width: 370px;
 }
@@ -571,3 +570,43 @@ height: 32px;
 fill: #202053;
 stroke: #fff;
 }
+.backdrop{
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(239, 57, 89, 50%);
+  opacity: 1;
+}
+.is-hidden{
+  opacity: 0;
+  pointer-events: none;
+}
+.modal{
+  width: 500px;
+  height: 600px;
+  background-color: #fff;
+  border-radius: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+}
+.modal-icon{
+  width: 50px;
+  height: 50px;
+  fill: #404040;
+  stroke: #404040;
+
+}
+.modal-close{
+  background-color: transparent;
+  border-radius: 30px;
+  width: 55px;
+  height: 55px;
+  margin-left: auto;
+  display: block;
+}
+

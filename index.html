@@ -378,7 +378,7 @@
               Перейдіть за посиланням та заповніть форму Ми з вами обов’язково
               звяжемось
             </p>
-            <button class="help-button connection-button" type="button">
+            <button data-modal-open class="help-button connection-button" type="button">
               Зв'яжіться з нами
             </button>
           </div>
@@ -418,7 +418,7 @@
               </li>
               <li class="footer-item">
                 <svg class="footer-icon">
-                 <use href="./images/symbol-defs.svg#icon-telegram"></use>
+                  <use href="./images/symbol-defs.svg#icon-telegram"></use>
                 </svg>
               </li>
             </ul>
@@ -496,5 +496,15 @@
         <p class="footer-description">Всі права захищено reserved@hatyna.ua</p>
       </div>
     </footer>
+    <div data-modal class="backdrop is-hidden">
+      <div class="modal">
+        <button data-modal-close  type="button" class="modal-close">
+          <svg class="modal-icon">
+            <use href="./images/symbol-defs.svg#icon-cancel-circle"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js" type="module"></script>
   </body>
 </html>
